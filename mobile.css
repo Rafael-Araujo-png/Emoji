@@ -1,0 +1,317 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/*--------------------------------------------*/
+
+@media (max-width: 1080px) {
+    
+body{
+
+    background-color: #A259FF;
+
+}
+
+/*--------------------------------------------*/
+
+.pagina{
+
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-2{
+
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/*-----------------CONTAINERS------------------------*/
+
+
+.lado-esquerdo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.lado-direito{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+
+}
+
+/*---------------LADO-DIREITO----------------------------*/
+
+.view-emoji{
+
+    display: flex;
+    background: #8B30FF;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+
+}
+
+.btn-baixar-emoji{
+
+    display: flex;
+    margin-top: 52px;
+    background: #F9D745;
+    border-radius: 100px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 25px;
+
+}
+.hover :hover{
+
+    background-color: #ffd51c;
+    border-radius: 100px;
+    
+
+}
+
+.text-baixar-emoji{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 15px;
+    color: #4B4B4B;
+
+}
+
+.icon-download{
+
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 35%;
+    height: 30px;
+
+}
+
+.mover-items{
+
+    display: flex;
+    width: 50px;
+    justify-content: center;
+
+}
+
+/*-------------LADO-DIREITO------------------------------*/
+
+
+/*-------------LADO-ESQUERDO-----------------------------*/
+
+
+.text-emoji{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.text-procure{
+
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 91.5%;
+    width: 100vw;
+    margin-top: 40px;
+
+}
+
+.text-procura{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: 14px;
+
+}
+
+/*--------------------------------------*/
+
+.btn-pesquisar-emoji{
+
+    display: flex;
+    margin-top: 52px;
+    width: 80vw;
+    height: 45px;
+    background: #F9D745;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.buscar{
+
+    outline: none;
+    width: 60vw;
+    border-radius: 10px;
+    background: #F9D745;
+    font-size: 15px;
+
+}
+
+::placeholder{
+
+    color: #4B4B4B;
+    font-size: 15px;
+
+}
+
+.lupa{
+
+    display: flex;
+    position: relative;
+    
+    right: 5%;
+    cursor: pointer;
+    
+}
+
+/*------------------ROLAGEM--------------------*/
+
+.scroll{
+
+
+    overflow:hidden;
+    overflow-y: scroll;
+    flex-direction: column;
+    width: 80vw;
+    height: 225px;
+    margin-top: 45px;
+
+}
+.items-1{
+
+    display: flex;
+    border-radius: 10px;
+    width: 90%;
+    height: 70px;
+    background-color: #933FFF;
+    
+}
+
+.items{
+
+    display: flex;
+    border-radius: 10px;
+    width: 90%;
+    height: 70px;
+    background-color: #933FFF;
+    margin-top: 40px;
+    
+}
+
+.items-1:hover{
+
+    background-color: #801CFF;
+
+}
+
+.items:hover{
+
+    background-color: #801CFF;
+
+}
+
+.like{
+
+    cursor: pointer;
+
+}
+
+
+.items-flex{
+
+    display: flex;
+    margin: 20px;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text-flex{
+
+    font-size: 11px; 
+
+}
+
+.icon-emoji{
+
+    display: flex;
+    height: 6vh;
+    margin-right: 5px;
+
+}
+
+
+/*-----------------------------------------------------------*/
+
+::-webkit-scrollbar{
+
+    background: #e9deff85;
+    border-radius: 50px;
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background-color: white;
+    border-radius: 50px;
+    width: 10px;
+
+}
+
+}
